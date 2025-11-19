@@ -1,0 +1,35 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/Lab_1.dir/__/libs/imgui/backends/imgui_impl_glfw.cpp.obj"
+  "CMakeFiles/Lab_1.dir/__/libs/imgui/backends/imgui_impl_glfw.cpp.obj.d"
+  "CMakeFiles/Lab_1.dir/__/libs/imgui/backends/imgui_impl_opengl3.cpp.obj"
+  "CMakeFiles/Lab_1.dir/__/libs/imgui/backends/imgui_impl_opengl3.cpp.obj.d"
+  "CMakeFiles/Lab_1.dir/__/libs/imgui/imgui.cpp.obj"
+  "CMakeFiles/Lab_1.dir/__/libs/imgui/imgui.cpp.obj.d"
+  "CMakeFiles/Lab_1.dir/__/libs/imgui/imgui_demo.cpp.obj"
+  "CMakeFiles/Lab_1.dir/__/libs/imgui/imgui_demo.cpp.obj.d"
+  "CMakeFiles/Lab_1.dir/__/libs/imgui/imgui_draw.cpp.obj"
+  "CMakeFiles/Lab_1.dir/__/libs/imgui/imgui_draw.cpp.obj.d"
+  "CMakeFiles/Lab_1.dir/__/libs/imgui/imgui_tables.cpp.obj"
+  "CMakeFiles/Lab_1.dir/__/libs/imgui/imgui_tables.cpp.obj.d"
+  "CMakeFiles/Lab_1.dir/__/libs/imgui/imgui_widgets.cpp.obj"
+  "CMakeFiles/Lab_1.dir/__/libs/imgui/imgui_widgets.cpp.obj.d"
+  "CMakeFiles/Lab_1.dir/source/CmykSlider.cpp.obj"
+  "CMakeFiles/Lab_1.dir/source/CmykSlider.cpp.obj.d"
+  "CMakeFiles/Lab_1.dir/source/ColorController.cpp.obj"
+  "CMakeFiles/Lab_1.dir/source/ColorController.cpp.obj.d"
+  "CMakeFiles/Lab_1.dir/source/HsvSlider.cpp.obj"
+  "CMakeFiles/Lab_1.dir/source/HsvSlider.cpp.obj.d"
+  "CMakeFiles/Lab_1.dir/source/RgbSlider.cpp.obj"
+  "CMakeFiles/Lab_1.dir/source/RgbSlider.cpp.obj.d"
+  "CMakeFiles/Lab_1.dir/source/main.cpp.obj"
+  "CMakeFiles/Lab_1.dir/source/main.cpp.obj.d"
+  "Lab_1.exe"
+  "Lab_1.exe.manifest"
+  "Lab_1.pdb"
+  "libLab_1.dll.a"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/Lab_1.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

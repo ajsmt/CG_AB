@@ -1,0 +1,37 @@
+Lab_1/CMakeFiles/Lab_1.dir/source/CmykSlider.cpp.obj: \
+ I:\BSU\CG\CG\Lab_1\source\CmykSlider.cpp \
+ I:/BSU/CG/CG/Lab_1/include/CmykSlider.h I:/BSU/CG/CG/libs/imgui/imgui.h \
+ I:/BSU/CG/CG/libs/imgui/imconfig.h \
+ D:/Applications/PrSoft/w64devkit/lib/gcc/x86_64-w64-mingw32/15.1.0/include/float.h \
+ D:/Applications/PrSoft/w64devkit/include/float.h \
+ D:/Applications/PrSoft/w64devkit/include/crtdefs.h \
+ D:/Applications/PrSoft/w64devkit/include/corecrt.h \
+ D:/Applications/PrSoft/w64devkit/include/_mingw.h \
+ D:/Applications/PrSoft/w64devkit/include/_mingw_mac.h \
+ D:/Applications/PrSoft/w64devkit/include/_mingw_secapi.h \
+ D:/Applications/PrSoft/w64devkit/include/vadefs.h \
+ D:/Applications/PrSoft/w64devkit/include/sdks/_mingw_ddk.h \
+ D:/Applications/PrSoft/w64devkit/lib/gcc/x86_64-w64-mingw32/15.1.0/include/stdarg.h \
+ D:/Applications/PrSoft/w64devkit/include/stdarg.h \
+ D:/Applications/PrSoft/w64devkit/include/_mingw_stdarg.h \
+ D:/Applications/PrSoft/w64devkit/lib/gcc/x86_64-w64-mingw32/15.1.0/include/stddef.h \
+ D:/Applications/PrSoft/w64devkit/include/stddef.h \
+ D:/Applications/PrSoft/w64devkit/include/string.h \
+ D:/Applications/PrSoft/w64devkit/include/sec_api/string_s.h \
+ D:/Applications/PrSoft/w64devkit/include/assert.h \
+ D:/Applications/PrSoft/w64devkit/lib/gcc/x86_64-w64-mingw32/15.1.0/include/c++/stdlib.h \
+ D:/Applications/PrSoft/w64devkit/lib/gcc/x86_64-w64-mingw32/15.1.0/include/c++/cstdlib \
+ D:/Applications/PrSoft/w64devkit/lib/gcc/x86_64-w64-mingw32/15.1.0/include/c++/x86_64-w64-mingw32/bits/c++config.h \
+ D:/Applications/PrSoft/w64devkit/lib/gcc/x86_64-w64-mingw32/15.1.0/include/c++/x86_64-w64-mingw32/bits/os_defines.h \
+ D:/Applications/PrSoft/w64devkit/lib/gcc/x86_64-w64-mingw32/15.1.0/include/c++/x86_64-w64-mingw32/bits/cpu_defines.h \
+ D:/Applications/PrSoft/w64devkit/lib/gcc/x86_64-w64-mingw32/15.1.0/include/c++/pstl/pstl_config.h \
+ D:/Applications/PrSoft/w64devkit/include/stdlib.h \
+ D:/Applications/PrSoft/w64devkit/include/corecrt_wstdlib.h \
+ D:/Applications/PrSoft/w64devkit/lib/gcc/x86_64-w64-mingw32/15.1.0/include/limits.h \
+ D:/Applications/PrSoft/w64devkit/lib/gcc/x86_64-w64-mingw32/15.1.0/include/syslimits.h \
+ D:/Applications/PrSoft/w64devkit/include/limits.h \
+ D:/Applications/PrSoft/w64devkit/include/sec_api/stdlib_s.h \
+ D:/Applications/PrSoft/w64devkit/include/malloc.h \
+ D:/Applications/PrSoft/w64devkit/lib/gcc/x86_64-w64-mingw32/15.1.0/include/mm_malloc.h \
+ D:/Applications/PrSoft/w64devkit/include/errno.h \
+ D:/Applications/PrSoft/w64devkit/lib/gcc/x86_64-w64-mingw32/15.1.0/include/c++/bits/std_abs.h

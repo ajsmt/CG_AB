@@ -1,0 +1,290 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/Applications/PrSoft/CMake/share/cmake-3.30/Modules/CMakeDetermineSystem.cmake:205 (message)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      The system is: Windows - 10.0.19045 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/Applications/PrSoft/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "D:/Applications/PrSoft/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/Applications/PrSoft/CMake/share/cmake-3.30/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: D:/Applications/PrSoft/w64devkit/bin/c++.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.exe"
+      
+      The CXX compiler identification is GNU, found in:
+        I:/BSU/CG/CG/build/CMakeFiles/3.30.3/CompilerIdCXX/a.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/Applications/PrSoft/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
+      - "D:/Applications/PrSoft/CMake/share/cmake-3.30/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "I:/BSU/CG/CG/build/CMakeFiles/CMakeScratch/TryCompile-vgocjt"
+      binary: "I:/BSU/CG/CG/build/CMakeFiles/CMakeScratch/TryCompile-vgocjt"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'I:/BSU/CG/CG/build/CMakeFiles/CMakeScratch/TryCompile-vgocjt'
+        
+        Run Build Command(s): D:/Applications/PrSoft/CMake/bin/cmake.exe -E env VERBOSE=1 D:/Applications/PrSoft/w64devkit/bin/mingw32-make.exe -f Makefile cmTC_c3e9a/fast
+        make  -f CMakeFiles\\cmTC_c3e9a.dir\\build.make CMakeFiles/cmTC_c3e9a.dir/build
+        make[1]: Entering directory 'I:/BSU/CG/CG/build/CMakeFiles/CMakeScratch/TryCompile-vgocjt'
+        Building CXX object CMakeFiles/cmTC_c3e9a.dir/CMakeCXXCompilerABI.cpp.obj
+        D:\\Applications\\PrSoft\\w64devkit\\bin\\c++.exe   -v -o CMakeFiles\\cmTC_c3e9a.dir\\CMakeCXXCompilerABI.cpp.obj -c D:\\Applications\\PrSoft\\CMake\\share\\cmake-3.30\\Modules\\CMakeCXXCompilerABI.cpp
+        Using built-in specs.
+        COLLECT_GCC=c++
+        Target: x86_64-w64-mingw32
+        Configured with: /gcc-15.1.0/configure --prefix=/w64devkit --with-sysroot=/w64devkit --with-native-system-header-dir=/include --target=x86_64-w64-mingw32 --host=x86_64-w64-mingw32 --enable-static --disable-shared --with-pic --with-gmp-include=/deps/include --with-gmp-lib=/deps/lib --with-mpc-include=/deps/include --with-mpc-lib=/deps/lib --with-mpfr-include=/deps/include --with-mpfr-lib=/deps/lib --enable-languages=c,c++,fortran --enable-libgomp --enable-threads=posix --enable-version-specific-runtime-libs --disable-libstdcxx-verbose --disable-dependency-tracking --disable-lto --disable-multilib --disable-nls --disable-win32-registry --enable-mingw-wildcard CFLAGS_FOR_TARGET=-Os CXXFLAGS_FOR_TARGET=-Os LDFLAGS_FOR_TARGET=-s CFLAGS=-Os CXXFLAGS=-Os LDFLAGS=-s
+        Thread model: posix
+        Supported LTO compression algorithms: zlib
+        gcc version 15.1.0 (GCC) 
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_c3e9a.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_c3e9a.dir\\'
+         D:/Applications/PrSoft/w64devkit/bin/../libexec/gcc/x86_64-w64-mingw32/15.1.0/cc1plus.exe -quiet -v -iprefix D:/Applications/PrSoft/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/ -isysroot D:/Applications/PrSoft/w64devkit/bin/../../w64devkit -D_REENTRANT D:\\Applications\\PrSoft\\CMake\\share\\cmake-3.30\\Modules\\CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles\\cmTC_c3e9a.dir\\ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -o X:\\Temp\\User\\ccgDMzvv.s
+        GNU C++17 (GCC) version 15.1.0 (x86_64-w64-mingw32)
+        	compiled by GNU C version 15.1.0, GMP version 6.3.0, MPFR version 4.2.2, MPC version 1.3.1, isl version none
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring nonexistent directory "D:/Applications/PrSoft/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../x86_64-w64-mingw32/include"
+        ignoring duplicate directory "D:/Applications/PrSoft/w64devkit/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/15.1.0/include/c++"
+        ignoring duplicate directory "D:/Applications/PrSoft/w64devkit/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/15.1.0/include/c++/x86_64-w64-mingw32"
+        ignoring duplicate directory "D:/Applications/PrSoft/w64devkit/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/15.1.0/include/c++/backward"
+        ignoring duplicate directory "D:/Applications/PrSoft/w64devkit/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/15.1.0/include"
+        ignoring duplicate directory "D:/Applications/PrSoft/w64devkit/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/15.1.0/include-fixed"
+        ignoring nonexistent directory "D:/Applications/PrSoft/w64devkit/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../x86_64-w64-mingw32/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         D:/Applications/PrSoft/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/include/c++
+         D:/Applications/PrSoft/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/include/c++/x86_64-w64-mingw32
+         D:/Applications/PrSoft/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/include/c++/backward
+         D:/Applications/PrSoft/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/include
+         D:/Applications/PrSoft/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/include-fixed
+         D:/Applications/PrSoft/w64devkit/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../include
+        End of search list.
+        Compiler executable checksum: f456542120caaa142db7cd97798dd521
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_c3e9a.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_c3e9a.dir\\'
+         as -v -o CMakeFiles\\cmTC_c3e9a.dir\\CMakeCXXCompilerABI.cpp.obj X:\\Temp\\User\\ccgDMzvv.s
+        GNU assembler version 2.44 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.44
+        COMPILER_PATH=D:/Applications/PrSoft/w64devkit/bin/../libexec/gcc/x86_64-w64-mingw32/15.1.0/;D:/Applications/PrSoft/w64devkit/bin/../libexec/gcc/
+        LIBRARY_PATH=D:/Applications/PrSoft/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/;D:/Applications/PrSoft/w64devkit/bin/../lib/gcc/;D:/Applications/PrSoft/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../lib/;D:/Applications/PrSoft/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_c3e9a.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_c3e9a.dir\\CMakeCXXCompilerABI.cpp.'
+        Linking CXX executable cmTC_c3e9a.exe
+        D:\\Applications\\PrSoft\\CMake\\bin\\cmake.exe -E cmake_link_script CMakeFiles\\cmTC_c3e9a.dir\\link.txt --verbose=1
+        D:\\Applications\\PrSoft\\CMake\\bin\\cmake.exe -E rm -f CMakeFiles\\cmTC_c3e9a.dir/objects.a
+        D:\\Applications\\PrSoft\\w64devkit\\bin\\ar.exe qc CMakeFiles\\cmTC_c3e9a.dir/objects.a @CMakeFiles\\cmTC_c3e9a.dir\\objects1.rsp
+        D:\\Applications\\PrSoft\\w64devkit\\bin\\c++.exe  -v -Wl,-v -Wl,--whole-archive CMakeFiles\\cmTC_c3e9a.dir/objects.a -Wl,--no-whole-archive -o cmTC_c3e9a.exe -Wl,--out-implib,libcmTC_c3e9a.dll.a -Wl,--major-image-version,0,--minor-image-version,0
+        Using built-in specs.
+        COLLECT_GCC=c++
+        COLLECT_LTO_WRAPPER=D:/Applications/PrSoft/w64devkit/bin/../libexec/gcc/x86_64-w64-mingw32/15.1.0/lto-wrapper.exe
+        Target: x86_64-w64-mingw32
+        Configured with: /gcc-15.1.0/configure --prefix=/w64devkit --with-sysroot=/w64devkit --with-native-system-header-dir=/include --target=x86_64-w64-mingw32 --host=x86_64-w64-mingw32 --enable-static --disable-shared --with-pic --with-gmp-include=/deps/include --with-gmp-lib=/deps/lib --with-mpc-include=/deps/include --with-mpc-lib=/deps/lib --with-mpfr-include=/deps/include --with-mpfr-lib=/deps/lib --enable-languages=c,c++,fortran --enable-libgomp --enable-threads=posix --enable-version-specific-runtime-libs --disable-libstdcxx-verbose --disable-dependency-tracking --disable-lto --disable-multilib --disable-nls --disable-win32-registry --enable-mingw-wildcard CFLAGS_FOR_TARGET=-Os CXXFLAGS_FOR_TARGET=-Os LDFLAGS_FOR_TARGET=-s CFLAGS=-Os CXXFLAGS=-Os LDFLAGS=-s
+        Thread model: posix
+        Supported LTO compression algorithms: zlib
+        gcc version 15.1.0 (GCC) 
+        COMPILER_PATH=D:/Applications/PrSoft/w64devkit/bin/../libexec/gcc/x86_64-w64-mingw32/15.1.0/;D:/Applications/PrSoft/w64devkit/bin/../libexec/gcc/
+        LIBRARY_PATH=D:/Applications/PrSoft/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/;D:/Applications/PrSoft/w64devkit/bin/../lib/gcc/;D:/Applications/PrSoft/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../lib/;D:/Applications/PrSoft/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_c3e9a.exe' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_c3e9a.'
+         D:/Applications/PrSoft/w64devkit/bin/../libexec/gcc/x86_64-w64-mingw32/15.1.0/collect2.exe --sysroot=D:/Applications/PrSoft/w64devkit/bin/../../w64devkit -m i386pep -Bdynamic -o cmTC_c3e9a.exe D:/Applications/PrSoft/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../lib/crt2.o D:/Applications/PrSoft/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/crtbegin.o -LD:/Applications/PrSoft/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0 -LD:/Applications/PrSoft/w64devkit/bin/../lib/gcc -LD:/Applications/PrSoft/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../lib -LD:/Applications/PrSoft/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../.. -v --whole-archive CMakeFiles\\cmTC_c3e9a.dir/objects.a --no-whole-archive --out-implib libcmTC_c3e9a.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lmingwex -lmsvcrt -lkernel32 D:/Applications/PrSoft/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/crtend.o
+        collect2 version 15.1.0
+        D:\\Applications\\PrSoft\\w64devkit\\bin/ld.exe --sysroot=D:/Applications/PrSoft/w64devkit/bin/../../w64devkit -m i386pep -Bdynamic -o cmTC_c3e9a.exe D:/Applications/PrSoft/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../lib/crt2.o D:/Applications/PrSoft/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/crtbegin.o -LD:/Applications/PrSoft/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0 -LD:/Applications/PrSoft/w64devkit/bin/../lib/gcc -LD:/Applications/PrSoft/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../lib -LD:/Applications/PrSoft/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../.. -v --whole-archive CMakeFiles\\cmTC_c3e9a.dir/objects.a --no-whole-archive --out-implib libcmTC_c3e9a.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lmingwex -lmsvcrt -lkernel32 D:/Applications/PrSoft/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/crtend.o
+        GNU ld (GNU Binutils) 2.44
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_c3e9a.exe' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_c3e9a.'
+        make[1]: Leaving directory 'I:/BSU/CG/CG/build/CMakeFiles/CMakeScratch/TryCompile-vgocjt'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/Applications/PrSoft/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:182 (message)"
+      - "D:/Applications/PrSoft/CMake/share/cmake-3.30/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed CXX implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [D:/Applications/PrSoft/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/include/c++]
+          add: [D:/Applications/PrSoft/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/include/c++/x86_64-w64-mingw32]
+          add: [D:/Applications/PrSoft/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/include/c++/backward]
+          add: [D:/Applications/PrSoft/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/include]
+          add: [D:/Applications/PrSoft/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/include-fixed]
+          add: [D:/Applications/PrSoft/w64devkit/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../include]
+        end of search list found
+        collapse include dir [D:/Applications/PrSoft/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/include/c++] ==> [D:/Applications/PrSoft/w64devkit/lib/gcc/x86_64-w64-mingw32/15.1.0/include/c++]
+        collapse include dir [D:/Applications/PrSoft/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/include/c++/x86_64-w64-mingw32] ==> [D:/Applications/PrSoft/w64devkit/lib/gcc/x86_64-w64-mingw32/15.1.0/include/c++/x86_64-w64-mingw32]
+        collapse include dir [D:/Applications/PrSoft/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/include/c++/backward] ==> [D:/Applications/PrSoft/w64devkit/lib/gcc/x86_64-w64-mingw32/15.1.0/include/c++/backward]
+        collapse include dir [D:/Applications/PrSoft/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/include] ==> [D:/Applications/PrSoft/w64devkit/lib/gcc/x86_64-w64-mingw32/15.1.0/include]
+        collapse include dir [D:/Applications/PrSoft/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/include-fixed] ==> [D:/Applications/PrSoft/w64devkit/lib/gcc/x86_64-w64-mingw32/15.1.0/include-fixed]
+        collapse include dir [D:/Applications/PrSoft/w64devkit/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../include] ==> [D:/Applications/PrSoft/w64devkit/include]
+        implicit include dirs: [D:/Applications/PrSoft/w64devkit/lib/gcc/x86_64-w64-mingw32/15.1.0/include/c++;D:/Applications/PrSoft/w64devkit/lib/gcc/x86_64-w64-mingw32/15.1.0/include/c++/x86_64-w64-mingw32;D:/Applications/PrSoft/w64devkit/lib/gcc/x86_64-w64-mingw32/15.1.0/include/c++/backward;D:/Applications/PrSoft/w64devkit/lib/gcc/x86_64-w64-mingw32/15.1.0/include;D:/Applications/PrSoft/w64devkit/lib/gcc/x86_64-w64-mingw32/15.1.0/include-fixed;D:/Applications/PrSoft/w64devkit/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/Applications/PrSoft/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:218 (message)"
+      - "D:/Applications/PrSoft/CMake/share/cmake-3.30/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?))("|,| |$)]
+        ignore line: [Change Dir: 'I:/BSU/CG/CG/build/CMakeFiles/CMakeScratch/TryCompile-vgocjt']
+        ignore line: []
+        ignore line: [Run Build Command(s): D:/Applications/PrSoft/CMake/bin/cmake.exe -E env VERBOSE=1 D:/Applications/PrSoft/w64devkit/bin/mingw32-make.exe -f Makefile cmTC_c3e9a/fast]
+        ignore line: [make  -f CMakeFiles\\cmTC_c3e9a.dir\\build.make CMakeFiles/cmTC_c3e9a.dir/build]
+        ignore line: [make[1]: Entering directory 'I:/BSU/CG/CG/build/CMakeFiles/CMakeScratch/TryCompile-vgocjt']
+        ignore line: [Building CXX object CMakeFiles/cmTC_c3e9a.dir/CMakeCXXCompilerABI.cpp.obj]
+        ignore line: [D:\\Applications\\PrSoft\\w64devkit\\bin\\c++.exe   -v -o CMakeFiles\\cmTC_c3e9a.dir\\CMakeCXXCompilerABI.cpp.obj -c D:\\Applications\\PrSoft\\CMake\\share\\cmake-3.30\\Modules\\CMakeCXXCompilerABI.cpp]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=c++]
+        ignore line: [Target: x86_64-w64-mingw32]
+        ignore line: [Configured with: /gcc-15.1.0/configure --prefix=/w64devkit --with-sysroot=/w64devkit --with-native-system-header-dir=/include --target=x86_64-w64-mingw32 --host=x86_64-w64-mingw32 --enable-static --disable-shared --with-pic --with-gmp-include=/deps/include --with-gmp-lib=/deps/lib --with-mpc-include=/deps/include --with-mpc-lib=/deps/lib --with-mpfr-include=/deps/include --with-mpfr-lib=/deps/lib --enable-languages=c c++ fortran --enable-libgomp --enable-threads=posix --enable-version-specific-runtime-libs --disable-libstdcxx-verbose --disable-dependency-tracking --disable-lto --disable-multilib --disable-nls --disable-win32-registry --enable-mingw-wildcard CFLAGS_FOR_TARGET=-Os CXXFLAGS_FOR_TARGET=-Os LDFLAGS_FOR_TARGET=-s CFLAGS=-Os CXXFLAGS=-Os LDFLAGS=-s]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib]
+        ignore line: [gcc version 15.1.0 (GCC) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_c3e9a.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_c3e9a.dir\\']
+        ignore line: [ D:/Applications/PrSoft/w64devkit/bin/../libexec/gcc/x86_64-w64-mingw32/15.1.0/cc1plus.exe -quiet -v -iprefix D:/Applications/PrSoft/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/ -isysroot D:/Applications/PrSoft/w64devkit/bin/../../w64devkit -D_REENTRANT D:\\Applications\\PrSoft\\CMake\\share\\cmake-3.30\\Modules\\CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles\\cmTC_c3e9a.dir\\ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -o X:\\Temp\\User\\ccgDMzvv.s]
+        ignore line: [GNU C++17 (GCC) version 15.1.0 (x86_64-w64-mingw32)]
+        ignore line: [	compiled by GNU C version 15.1.0  GMP version 6.3.0  MPFR version 4.2.2  MPC version 1.3.1  isl version none]
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring nonexistent directory "D:/Applications/PrSoft/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../x86_64-w64-mingw32/include"]
+        ignore line: [ignoring duplicate directory "D:/Applications/PrSoft/w64devkit/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/15.1.0/include/c++"]
+        ignore line: [ignoring duplicate directory "D:/Applications/PrSoft/w64devkit/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/15.1.0/include/c++/x86_64-w64-mingw32"]
+        ignore line: [ignoring duplicate directory "D:/Applications/PrSoft/w64devkit/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/15.1.0/include/c++/backward"]
+        ignore line: [ignoring duplicate directory "D:/Applications/PrSoft/w64devkit/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/15.1.0/include"]
+        ignore line: [ignoring duplicate directory "D:/Applications/PrSoft/w64devkit/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/15.1.0/include-fixed"]
+        ignore line: [ignoring nonexistent directory "D:/Applications/PrSoft/w64devkit/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../x86_64-w64-mingw32/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ D:/Applications/PrSoft/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/include/c++]
+        ignore line: [ D:/Applications/PrSoft/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/include/c++/x86_64-w64-mingw32]
+        ignore line: [ D:/Applications/PrSoft/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/include/c++/backward]
+        ignore line: [ D:/Applications/PrSoft/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/include]
+        ignore line: [ D:/Applications/PrSoft/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/include-fixed]
+        ignore line: [ D:/Applications/PrSoft/w64devkit/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../include]
+        ignore line: [End of search list.]
+        ignore line: [Compiler executable checksum: f456542120caaa142db7cd97798dd521]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_c3e9a.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_c3e9a.dir\\']
+        ignore line: [ as -v -o CMakeFiles\\cmTC_c3e9a.dir\\CMakeCXXCompilerABI.cpp.obj X:\\Temp\\User\\ccgDMzvv.s]
+        ignore line: [GNU assembler version 2.44 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.44]
+        ignore line: [COMPILER_PATH=D:/Applications/PrSoft/w64devkit/bin/../libexec/gcc/x86_64-w64-mingw32/15.1.0/]
+        ignore line: [D:/Applications/PrSoft/w64devkit/bin/../libexec/gcc/]
+        ignore line: [LIBRARY_PATH=D:/Applications/PrSoft/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/]
+        ignore line: [D:/Applications/PrSoft/w64devkit/bin/../lib/gcc/]
+        ignore line: [D:/Applications/PrSoft/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../lib/]
+        ignore line: [D:/Applications/PrSoft/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_c3e9a.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_c3e9a.dir\\CMakeCXXCompilerABI.cpp.']
+        ignore line: [Linking CXX executable cmTC_c3e9a.exe]
+        ignore line: [D:\\Applications\\PrSoft\\CMake\\bin\\cmake.exe -E cmake_link_script CMakeFiles\\cmTC_c3e9a.dir\\link.txt --verbose=1]
+        ignore line: [D:\\Applications\\PrSoft\\CMake\\bin\\cmake.exe -E rm -f CMakeFiles\\cmTC_c3e9a.dir/objects.a]
+        ignore line: [D:\\Applications\\PrSoft\\w64devkit\\bin\\ar.exe qc CMakeFiles\\cmTC_c3e9a.dir/objects.a @CMakeFiles\\cmTC_c3e9a.dir\\objects1.rsp]
+        ignore line: [D:\\Applications\\PrSoft\\w64devkit\\bin\\c++.exe  -v -Wl -v -Wl --whole-archive CMakeFiles\\cmTC_c3e9a.dir/objects.a -Wl --no-whole-archive -o cmTC_c3e9a.exe -Wl --out-implib libcmTC_c3e9a.dll.a -Wl --major-image-version 0 --minor-image-version 0]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=c++]
+        ignore line: [COLLECT_LTO_WRAPPER=D:/Applications/PrSoft/w64devkit/bin/../libexec/gcc/x86_64-w64-mingw32/15.1.0/lto-wrapper.exe]
+        ignore line: [Target: x86_64-w64-mingw32]
+        ignore line: [Configured with: /gcc-15.1.0/configure --prefix=/w64devkit --with-sysroot=/w64devkit --with-native-system-header-dir=/include --target=x86_64-w64-mingw32 --host=x86_64-w64-mingw32 --enable-static --disable-shared --with-pic --with-gmp-include=/deps/include --with-gmp-lib=/deps/lib --with-mpc-include=/deps/include --with-mpc-lib=/deps/lib --with-mpfr-include=/deps/include --with-mpfr-lib=/deps/lib --enable-languages=c c++ fortran --enable-libgomp --enable-threads=posix --enable-version-specific-runtime-libs --disable-libstdcxx-verbose --disable-dependency-tracking --disable-lto --disable-multilib --disable-nls --disable-win32-registry --enable-mingw-wildcard CFLAGS_FOR_TARGET=-Os CXXFLAGS_FOR_TARGET=-Os LDFLAGS_FOR_TARGET=-s CFLAGS=-Os CXXFLAGS=-Os LDFLAGS=-s]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib]
+        ignore line: [gcc version 15.1.0 (GCC) ]
+        ignore line: [COMPILER_PATH=D:/Applications/PrSoft/w64devkit/bin/../libexec/gcc/x86_64-w64-mingw32/15.1.0/]
+        ignore line: [D:/Applications/PrSoft/w64devkit/bin/../libexec/gcc/]
+        ignore line: [LIBRARY_PATH=D:/Applications/PrSoft/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/]
+        ignore line: [D:/Applications/PrSoft/w64devkit/bin/../lib/gcc/]
+        ignore line: [D:/Applications/PrSoft/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../lib/]
+        ignore line: [D:/Applications/PrSoft/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_c3e9a.exe' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_c3e9a.']
+        link line: [ D:/Applications/PrSoft/w64devkit/bin/../libexec/gcc/x86_64-w64-mingw32/15.1.0/collect2.exe --sysroot=D:/Applications/PrSoft/w64devkit/bin/../../w64devkit -m i386pep -Bdynamic -o cmTC_c3e9a.exe D:/Applications/PrSoft/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../lib/crt2.o D:/Applications/PrSoft/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/crtbegin.o -LD:/Applications/PrSoft/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0 -LD:/Applications/PrSoft/w64devkit/bin/../lib/gcc -LD:/Applications/PrSoft/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../lib -LD:/Applications/PrSoft/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../.. -v --whole-archive CMakeFiles\\cmTC_c3e9a.dir/objects.a --no-whole-archive --out-implib libcmTC_c3e9a.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lmingwex -lmsvcrt -lkernel32 D:/Applications/PrSoft/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/crtend.o]
+          arg [D:/Applications/PrSoft/w64devkit/bin/../libexec/gcc/x86_64-w64-mingw32/15.1.0/collect2.exe] ==> ignore
+          arg [--sysroot=D:/Applications/PrSoft/w64devkit/bin/../../w64devkit] ==> ignore
+          arg [-m] ==> ignore
+          arg [i386pep] ==> ignore
+          arg [-Bdynamic] ==> search dynamic
+          arg [-o] ==> ignore
+          arg [cmTC_c3e9a.exe] ==> ignore
+          arg [D:/Applications/PrSoft/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../lib/crt2.o] ==> obj [D:/Applications/PrSoft/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../lib/crt2.o]
+          arg [D:/Applications/PrSoft/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/crtbegin.o] ==> obj [D:/Applications/PrSoft/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/crtbegin.o]
+          arg [-LD:/Applications/PrSoft/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0] ==> dir [D:/Applications/PrSoft/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0]
+          arg [-LD:/Applications/PrSoft/w64devkit/bin/../lib/gcc] ==> dir [D:/Applications/PrSoft/w64devkit/bin/../lib/gcc]
+          arg [-LD:/Applications/PrSoft/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../lib] ==> dir [D:/Applications/PrSoft/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../lib]
+          arg [-LD:/Applications/PrSoft/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../..] ==> dir [D:/Applications/PrSoft/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../..]
+          arg [-v] ==> ignore
+          arg [--whole-archive] ==> ignore
+          arg [CMakeFiles\\cmTC_c3e9a.dir/objects.a] ==> ignore
+          arg [--no-whole-archive] ==> ignore
+          arg [--out-implib] ==> ignore
+          arg [libcmTC_c3e9a.dll.a] ==> ignore
+          arg [--major-image-version] ==> ignore
+          arg [0] ==> ignore
+          arg [--minor-image-version] ==> ignore
+          arg [0] ==> ignore
+          arg [-lstdc++] ==> lib [stdc++]
+          arg [-lmingw32] ==> lib [mingw32]
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lmingwex] ==> lib [mingwex]
+          arg [-lmsvcrt] ==> lib [msvcrt]
+          arg [-lkernel32] ==> lib [kernel32]
+          arg [-lpthread] ==> lib [pthread]
+          arg [-ladvapi32] ==> lib [advapi32]
+          arg [-lshell32] ==> lib [shell32]
+          arg [-luser32] ==> lib [user32]
+          arg [-lkernel32] ==> lib [kernel32]
+          arg [-lmingw32] ==> lib [mingw32]
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lmingwex] ==> lib [mingwex]
+          arg [-lmsvcrt] ==> lib [msvcrt]
+          arg [-lkernel32] ==> lib [kernel32]
+          arg [D:/Applications/PrSoft/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/crtend.o] ==> obj [D:/Applications/PrSoft/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/crtend.o]
+        ignore line: [collect2 version 15.1.0]
+        ignore line: [D:\\Applications\\PrSoft\\w64devkit\\bin/ld.exe --sysroot=D:/Applications/PrSoft/w64devkit/bin/../../w64devkit -m i386pep -Bdynamic -o cmTC_c3e9a.exe D:/Applications/PrSoft/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../lib/crt2.o D:/Applications/PrSoft/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/crtbegin.o -LD:/Applications/PrSoft/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0 -LD:/Applications/PrSoft/w64devkit/bin/../lib/gcc -LD:/Applications/PrSoft/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../lib -LD:/Applications/PrSoft/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../.. -v --whole-archive CMakeFiles\\cmTC_c3e9a.dir/objects.a --no-whole-archive --out-implib libcmTC_c3e9a.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lmingwex -lmsvcrt -lkernel32 D:/Applications/PrSoft/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/crtend.o]
+        linker tool for 'CXX': D:/Applications/PrSoft/w64devkit/bin/ld.exe
+        remove lib [msvcrt]
+        remove lib [msvcrt]
+        collapse obj [D:/Applications/PrSoft/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../lib/crt2.o] ==> [D:/Applications/PrSoft/w64devkit/lib/crt2.o]
+        collapse obj [D:/Applications/PrSoft/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/crtbegin.o] ==> [D:/Applications/PrSoft/w64devkit/lib/gcc/x86_64-w64-mingw32/15.1.0/crtbegin.o]
+        collapse obj [D:/Applications/PrSoft/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/crtend.o] ==> [D:/Applications/PrSoft/w64devkit/lib/gcc/x86_64-w64-mingw32/15.1.0/crtend.o]
+        collapse library dir [D:/Applications/PrSoft/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0] ==> [D:/Applications/PrSoft/w64devkit/lib/gcc/x86_64-w64-mingw32/15.1.0]
+        collapse library dir [D:/Applications/PrSoft/w64devkit/bin/../lib/gcc] ==> [D:/Applications/PrSoft/w64devkit/lib/gcc]
+        collapse library dir [D:/Applications/PrSoft/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../lib] ==> [D:/Applications/PrSoft/w64devkit/lib]
+        collapse library dir [D:/Applications/PrSoft/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../..] ==> [D:/Applications/PrSoft/w64devkit/lib]
+        implicit libs: [stdc++;mingw32;gcc;mingwex;kernel32;pthread;advapi32;shell32;user32;kernel32;mingw32;gcc;mingwex;kernel32]
+        implicit objs: [D:/Applications/PrSoft/w64devkit/lib/crt2.o;D:/Applications/PrSoft/w64devkit/lib/gcc/x86_64-w64-mingw32/15.1.0/crtbegin.o;D:/Applications/PrSoft/w64devkit/lib/gcc/x86_64-w64-mingw32/15.1.0/crtend.o]
+        implicit dirs: [D:/Applications/PrSoft/w64devkit/lib/gcc/x86_64-w64-mingw32/15.1.0;D:/Applications/PrSoft/w64devkit/lib/gcc;D:/Applications/PrSoft/w64devkit/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/Applications/PrSoft/CMake/share/cmake-3.30/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "D:/Applications/PrSoft/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:255 (cmake_determine_linker_id)"
+      - "D:/Applications/PrSoft/CMake/share/cmake-3.30/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Running the CXX compiler's linker: "D:/Applications/PrSoft/w64devkit/bin/ld.exe" "-v"
+      GNU ld (GNU Binutils) 2.44
+...

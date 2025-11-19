@@ -1,0 +1,5 @@
+I:/BSU/CG/CG/build/CMakeFiles/edit_cache.dir
+I:/BSU/CG/CG/build/CMakeFiles/rebuild_cache.dir
+I:/BSU/CG/CG/build/Lab_1/CMakeFiles/Lab_1.dir
+I:/BSU/CG/CG/build/Lab_1/CMakeFiles/edit_cache.dir
+I:/BSU/CG/CG/build/Lab_1/CMakeFiles/rebuild_cache.dir
