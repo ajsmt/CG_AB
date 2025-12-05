@@ -5,13 +5,16 @@
 
 struct Point {
     int x, y;
+    float alpha;
 };
 
 enum RasterAlgorithm {
     ALGO_STEP_BY_STEP,
     ALGO_DDA,
     ALGO_BRESENHAM_LINE,
-    ALGO_BRESENHAM_CIRCLE
+    ALGO_BRESENHAM_CIRCLE,
+    ALGO_CASTLE_PITEWAY,
+    ALGO_WU
 };
 
 class RasterController {
@@ -26,7 +29,7 @@ private:
     int radius;
     RasterAlgorithm currentAlgo;
     
-    std::vector<Point> pixels;
+    std::vector<Point> Points;
     
     double currentExecutionTime; 
     double averageExecutionTime; 
@@ -46,6 +49,8 @@ private:
     void AlgoDDA();
     void AlgoBresenhamLine();
     void AlgoBresenhamCircle();
+    void AlgoCastlePiteway();
+    void AlgoWu();
     
-    void Plot(int x, int y);
+    void Plot(int x, int y, float alpha = 1.0f);
 };
